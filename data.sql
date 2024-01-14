@@ -1,0 +1,14 @@
+create table sarees(sid integer,sname varchar(25),price integer,material varchar(25));
+insert into sarees(sid,sname,price,material) values(1001,'chiffon saree',2500,'chiffon');
+insert into sarees(sid,sname,price,material) values(1002,'soft organza saree',5500,'organza');
+insert into sarees(sid,sname,price,material) values(1003,'tissue chanderi saree',2500,'tissue');
+insert into sarees(sid,sname,price,material) values(1004,'tusser kota saree',2900,'tusser');
+insert into sarees(sid,sname,price,material) values(1005,'banjara silk saree',3500,'silk');
+insert into sarees(sid,sname,price,material) values(1006,'chanderi printed saree',7300,'chanderi');
+insert into sarees(sid,sname,price,material) values(1007,'satin chanderi saree',2500,'satin');
+insert into sarees(sid,sname,price,material) values(1008,'pure tusser kota saree',2500,'kota');
+insert into sarees(sid,sname,price,material) values(1009,'handloom cotton saree',2500,'cotton');
+insert into sarees(sid,sname,price,material) values(1010,'banaras gorgette saree',2500,'gorgette');
+insert into sarees(sid,sname,price,material) values(1011,'munga silk saree',2500,'munga');
+insert into sarees(sid,sname,price,material) values(1012,'chandeti tissue saree',2500,'tissue');
+select * from sarees;
